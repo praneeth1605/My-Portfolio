@@ -19,6 +19,7 @@ This is a personal portfolio website built using the React framework. It showcas
 
 **🛠️ Technologies Used**
 
+
 React.js (Functional Components & Hooks)
 
 HTML5 & CSS3 (or TailwindCSS / Bootstrap if applicable)
