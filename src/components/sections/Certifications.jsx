@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Section from '../common/Section';
 
 const CertificationsContainer = styled.div`
-  max-width: 900px;
+  max-width: 850px;
   margin: 0 auto;
 `;
 
@@ -28,9 +28,9 @@ const CertificationCard = styled(motion.div)`
 `;
 
 const CertificationImage = styled.img`
-  max-height: 120px;
+  max-height: 235px;
   margin: 24px auto 0 auto;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
 `;
 
@@ -115,15 +115,15 @@ const certificationsData = [
     title: 'AWS Certified Cloud Practitioner',
     issuer: 'AWS',
     date: '2024',
-    link: '#',
-    image: 'https://example.com/aws-cert-image.jpg', // replace with your image URL
+    link: 'https://www.credly.com/badges/0f72e76a-24f9-4668-8405-b7b95c964fe0/public_url',
+    image: '/images/aws.png', // replace with your image URL
   },
   {
     id: 2,
     title: 'Red Hat Certified Enterprise Application Developer',
     issuer: 'Red Hat',
     date: '2024',
-    link: '#',
+    link: 'https://www.credly.com/badges/2ef68f7c-6b4a-4fb0-8fa9-3d803251c5f3/public_url',
     image: '/images/redhat.png',  // replace with your image path or URL
   },
 ];
